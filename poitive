@@ -1,0 +1,62 @@
+Some items ( Pos04 Pos08 Pos11 Pos14 Pos15 Pos17 ) were negatively correlated with the total scale and 
+probably should be reversed.  
+To do this, run the function again with the 'check.keys=TRUE' option
+Reliability analysis   
+Call: alpha(x = x, na.rm = T, check.keys = F)
+
+  raw_alpha std.alpha G6(smc) average_r   S/N
+     0.426      0.38       1    0.0392 0.613
+
+ Reliability if an item is dropped:
+      raw_alpha std.alpha G6(smc) average_r   S/N
+Pos01     0.306     0.213       1    0.0190 0.271
+Pos02     0.241     0.211       1    0.0187 0.267
+Pos03     0.323     0.247       1    0.0229 0.328
+Pos04     0.585     0.591       1    0.0935 1.444
+Pos05     0.252     0.198       1    0.0173 0.246
+Pos06     0.306     0.213       1    0.0190 0.271
+Pos07     0.512     0.459       1    0.0571 0.849
+Pos08     0.462     0.431       1    0.0513 0.757
+Pos10     0.306     0.213       1    0.0190 0.271
+Pos11     0.433     0.385       1    0.0428 0.626
+Pos12     0.428     0.366       1    0.0396 0.577
+Pos14     0.491     0.447       1    0.0545 0.807
+Pos15     0.433     0.402       1    0.0459 0.674
+Pos16     0.241     0.183       1    0.0158 0.225
+Pos17     0.536     0.521       1    0.0721 1.088
+
+ Item statistics 
+            r   r.cor  r.drop
+Pos01  0.7030  0.7030  0.5649
+Pos02  0.7082  0.7082  0.6261
+Pos03  0.6302  0.6302  0.4183
+Pos04 -0.7030 -0.7030 -0.7521
+Pos05  0.7357  0.7357  0.6250
+Pos06  0.7030  0.7030  0.5649
+Pos07 -0.0168 -0.0168 -0.2206
+Pos08  0.0942  0.0942 -0.1008
+Pos10  0.7030  0.7030  0.5649
+Pos11  0.2545  0.2545  0.0552
+Pos12  0.3154  0.3154  0.0788
+Pos14  0.0333  0.0333 -0.1581
+Pos15  0.1954  0.1954  0.0552
+Pos16  0.7639  0.7639  0.6261
+Pos17 -0.2994 -0.2994 -0.4732
+
+Non missing response frequency for each item
+          0     1 miss
+Pos01 0.167 0.833    0
+Pos02 0.500 0.500    0
+Pos03 0.333 0.667    0
+Pos04 0.833 0.167    0
+Pos05 0.333 0.667    0
+Pos06 0.167 0.833    0
+Pos07 0.500 0.500    0
+Pos08 0.167 0.833    0
+Pos10 0.167 0.833    0
+Pos11 0.333 0.667    0
+Pos12 0.500 0.500    0
+Pos14 0.667 0.333    0
+Pos15 0.333 0.667    0
+Pos16 0.500 0.500    0
+Pos17 0.167 0.833    0
