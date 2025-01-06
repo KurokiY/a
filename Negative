@@ -1,0 +1,75 @@
+Basic statistics of the scale (test)
+[[1]]
+         n mean   sd median trimmed  mad  min  max range skew kurtosis   se
+Average  6  0.5 0.21   0.47     0.5 0.22 0.24 0.82  0.59 0.28    -1.55 0.09
+
+[[2]]
+         n mean   sd median trimmed  mad min max range skew kurtosis   se
+Total    6  8.5 3.56      8     8.5 3.71   4  14    10 0.28    -1.55 1.45
+
+Cronbach's coefficient alpha
+Some items ( Neg07 Neg12 ) were negatively correlated with the total scale and 
+probably should be reversed.  
+To do this, run the function again with the 'check.keys=TRUE' option
+Reliability analysis   
+Call: alpha(x = x, na.rm = T, check.keys = F)
+
+  raw_alpha std.alpha G6(smc) average_r S/N
+     0.762     0.767       1     0.171 3.3
+
+ Reliability if an item is dropped:
+      raw_alpha std.alpha G6(smc) average_r  S/N
+Neg01     0.717     0.727   1.000     0.150 2.66
+Neg02     0.736     0.739   1.000     0.159 2.84
+Neg03     0.736     0.739   1.000     0.159 2.84
+Neg04     0.723     0.727   1.000     0.151 2.66
+Neg05     0.736     0.739   1.000     0.159 2.84
+Neg07     0.818     0.834   1.000     0.251 5.02
+Neg08     0.765     0.770   0.993     0.183 3.36
+Neg09     0.702     0.714   1.000     0.143 2.50
+Neg10     0.743     0.749   0.992     0.166 2.99
+Neg11     0.723     0.727   1.000     0.151 2.66
+Neg12     0.830     0.824   1.000     0.238 4.68
+Neg13     0.765     0.767   1.000     0.180 3.30
+Neg14     0.717     0.727   1.000     0.150 2.66
+Neg15     0.758     0.767   1.000     0.180 3.30
+Neg16     0.753     0.757   1.000     0.172 3.11
+Neg17     0.702     0.714   1.000     0.143 2.50
+
+ Item statistics 
+           r  r.cor r.drop
+Neg01  0.757  0.757  0.688
+Neg02  0.637  0.637  0.540
+Neg03  0.637  0.637  0.540
+Neg04  0.752  0.752  0.700
+Neg05  0.637  0.637  0.540
+Neg07 -0.637 -0.637 -0.682
+Neg08  0.307  0.307  0.188
+Neg09  0.865  0.865  0.826
+Neg10  0.540  0.540  0.429
+Neg11  0.752  0.752  0.700
+Neg12 -0.459 -0.459 -0.569
+Neg13  0.342  0.342  0.188
+Neg14  0.757  0.757  0.688
+Neg15  0.342  0.342  0.237
+Neg16  0.459  0.459  0.327
+Neg17  0.865  0.865  0.826
+
+Non missing response frequency for each item
+          0     1 miss
+Neg01 0.333 0.667    0
+Neg02 0.167 0.833    0
+Neg03 0.167 0.833    0
+Neg04 0.833 0.167    0
+Neg05 0.167 0.833    0
+Neg07 0.833 0.167    0
+Neg08 0.333 0.667    0
+Neg09 0.667 0.333    0
+Neg10 0.667 0.333    0
+Neg11 0.833 0.167    0
+Neg12 0.500 0.500    0
+Neg13 0.667 0.333    0
+Neg14 0.333 0.667    0
+Neg15 0.833 0.167    0
+Neg16 0.500 0.500    0
+Neg17 0.667 0.333    0
